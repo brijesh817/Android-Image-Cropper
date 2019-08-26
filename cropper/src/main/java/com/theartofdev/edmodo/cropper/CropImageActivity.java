@@ -91,7 +91,7 @@ public class CropImageActivity extends AppCompatActivity
               ? mOptions.activityTitle
               : getResources().getString(R.string.crop_image_activity_title);
       actionBar.setTitle(title);
-      actionBar.setDisplayHomeAsUpEnabled(true);
+      actionBar.setDisplayHomeAsUpEnabled(false);
     }
   }
 
